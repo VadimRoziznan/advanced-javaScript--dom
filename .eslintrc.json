@@ -4,7 +4,7 @@
   "env": {
     "es6": true,
     "browser": true,
-    "jest/globals": true
+    "jest": true
   },
   "parserOptions": {
     "sourceType": "module"
@@ -14,10 +14,10 @@
   },
   "overrides": [
     {
-      "files": ["**/*.test.js"],
-      "plugins": ["jest"],
-      "extends": ["plugin:jest/recommended"],
-      "rules": { "jest/prefer-expect-assertions": "off" }
+      "files": ["jest.config.js"],
+      "env": {
+        "node": true
+      }
     }
   ]
 }
