@@ -6,6 +6,7 @@ export default class Moving {
   randomStep(width, height) {
     let randomWidth;
     let randomHeight;
+    /*eslint no-constant-condition: ["error", { "checkLoops": false }]*/
     while (true) {
       randomWidth = Math.floor(Math.random() * width);
       randomHeight = Math.floor(Math.random() * height);

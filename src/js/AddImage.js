@@ -4,9 +4,9 @@ export default class AddImage {
   }
 
   createImage(x, y) {
-    const divs = this.element.querySelectorAll('.square');
-    const image = document.createElement('img');
-    image.src = require('../images/goblin.png');
+    const divs = this.element.querySelectorAll(".square");
+    const image = document.createElement("img");
+    image.src = "../images/goblin.png";
     divs.forEach((div) => {
       const imageСheck = div.childNodes[0];
       if (imageСheck) {
