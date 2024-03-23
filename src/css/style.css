@@ -1,0 +1,17 @@
+body {
+  background-color: #F0E68C;
+}
+
+.square {
+  display: inline-block;
+  width: 90px; 
+  height: 90px;
+  background-color: green;
+  margin: 5px; 
+}
+
+img {
+  max-width: 100%; 
+  height: auto;
+  display: block; 
+}
